@@ -11,10 +11,8 @@ int main()
     cin >> b;
     cout << "\nВведите 3-е число: ";
     cin >> c;
-    resultSum = a + b + c;
-    resultMultiplication = a * b * c;
     cout << "\n\n\n=============================================\n";
-    cout << "\n Сумма набранных чисел = " << resultSum << endl;
-    cout << "\n Произведение набранных чисел = " << resultMultiplication << endl;
+    cout << "\n Сумма набранных чисел = " << a + b + c << endl;
+    cout << "\n Произведение набранных чисел = " << a * b * c << endl;
     cout << "\n=============================================";
 }
