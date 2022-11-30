@@ -1,28 +1,44 @@
 #include <iostream>
 #include <conio.h>
 #include <vector>
-#include <numeric>
+#include <string>
+#include <algorithm>
 using namespace std;
 int main()
 {
-
-    int num, checker, result, counter = 0;
-    cout << " Укажите размер массива: ";
-    cin >> num;
-    vector<int> vectArr;
-
-    for (int a = 0; a < num; a++)
-    {
-        cout << " " << a + 1 << " число = ";
-        cin >> checker;
-        if (checker > 0)
+    int arr[10][10];
+    int i, j, strings, s;
+    cout << "n: ";
+    cin >> strings;
+    for (i = 0; i < strings; i++)
+        for (j = 0; j < strings; j++)
         {
-            vectArr.push_back(checker);
-            counter++;
+            cout << j + 1 << " number: ";
+            cin >> arr[i][j];
         }
+
+    for (i = 0; i < strings; i++)
+    {
+        for (j = 0; j < strings; j++)
+        {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
     }
-    // result = accumulate(vectArr.begin(), vectArr.end(), 0);
-    cout << " Количество положительных элементов: " << counter << endl;
-    cout << " Сумма всех элементов: " << accumulate(vectArr.begin(), vectArr.end(), 0) << endl;
+
     getch();
 }
+// cout << " Укажите размер массива: ";
+// cin >> num;
+// cout << " Количество положительных элементов: " << counter << endl;
+
+// for (int a = 0; a < num; a++)
+// {
+//     cout << " " << a + 1 << " число = ";
+//     cin >> checker;
+//     if (checker > 0)
+//     {
+//         vectArr.push_back(checker);
+//         counter++;
+//     }
+// }

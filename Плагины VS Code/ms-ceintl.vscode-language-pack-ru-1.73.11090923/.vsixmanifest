@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="vscode-language-pack-ru" Version="1.73.11090923" Publisher="MS-CEINTL" />
+			<DisplayName>Russian Language Pack for Visual Studio Code</DisplayName>
+			<Description xml:space="preserve">Language pack extension for Russian</Description>
+			<Tags>lp-ru,__lp_vscode,__lp-ru_vscode,__lp_bat,__lp-ru_bat,__lp_clojure,__lp-ru_clojure,__lp_coffeescript,__lp-ru_coffeescript,__lp_configuration-editing,__lp-ru_configuration-editing,__lp_cpp,__lp-ru_cpp,__lp_csharp,__lp-ru_csharp,__lp_css-language-features,__lp-ru_css-language-features,__lp_css,__lp-ru_css,__lp_dart,__lp-ru_dart,__lp_debug-auto-launch,__lp-ru_debug-auto-launch,__lp_debug-server-ready,__lp-ru_debug-server-ready,__lp_diff,__lp-ru_diff,__lp_docker,__lp-ru_docker,__lp_emmet,__lp-ru_emmet,__lp_extension-editing,__lp-ru_extension-editing,__lp_fsharp,__lp-ru_fsharp,__lp_git-base,__lp-ru_git-base,__lp_git,__lp-ru_git,__lp_github-authentication,__lp-ru_github-authentication,__lp_github,__lp-ru_github,__lp_go,__lp-ru_go,__lp_groovy,__lp-ru_groovy,__lp_grunt,__lp-ru_grunt,__lp_gulp,__lp-ru_gulp,__lp_handlebars,__lp-ru_handlebars,__lp_hlsl,__lp-ru_hlsl,__lp_html-language-features,__lp-ru_html-language-features,__lp_html,__lp-ru_html,__lp_image-preview,__lp-ru_image-preview,__lp_ini,__lp-ru_ini,__lp_ipynb,__lp-ru_ipynb,__lp_jake,__lp-ru_jake,__lp_java,__lp-ru_java,__lp_javascript,__lp-ru_javascript,__lp_json-language-features,__lp-ru_json-language-features,__lp_json,__lp-ru_json,__lp_julia,__lp-ru_julia,__lp_latex,__lp-ru_latex,__lp_less,__lp-ru_less,__lp_log,__lp-ru_log,__lp_lua,__lp-ru_lua,__lp_make,__lp-ru_make,__lp_markdown-basics,__lp-ru_markdown-basics,__lp_markdown-language-features,__lp-ru_markdown-language-features,__lp_markdown-math,__lp-ru_markdown-math,__lp_media-preview,__lp-ru_media-preview,__lp_merge-conflict,__lp-ru_merge-conflict,__lp_microsoft-authentication,__lp-ru_microsoft-authentication,__lp_ms-vscode.js-debug,__lp-ru_ms-vscode.js-debug,__lp_notebook-renderers,__lp-ru_notebook-renderers,__lp_npm,__lp-ru_npm,__lp_objective-c,__lp-ru_objective-c,__lp_perl,__lp-ru_perl,__lp_php-language-features,__lp-ru_php-language-features,__lp_php,__lp-ru_php,__lp_powershell,__lp-ru_powershell,__lp_pug,__lp-ru_pug,__lp_python,__lp-ru_python,__lp_r,__lp-ru_r,__lp_razor,__lp-ru_razor,__lp_references-view,__lp-ru_references-view,__lp_restructuredtext,__lp-ru_restructuredtext,__lp_ruby,__lp-ru_ruby,__lp_rust,__lp-ru_rust,__lp_scss,__lp-ru_scss,__lp_search-result,__lp-ru_search-result,__lp_shaderlab,__lp-ru_shaderlab,__lp_shellscript,__lp-ru_shellscript,__lp_simple-browser,__lp-ru_simple-browser,__lp_sql,__lp-ru_sql,__lp_swift,__lp-ru_swift,__lp_theme-abyss,__lp-ru_theme-abyss,__lp_theme-defaults,__lp-ru_theme-defaults,__lp_theme-kimbie-dark,__lp-ru_theme-kimbie-dark,__lp_theme-monokai-dimmed,__lp-ru_theme-monokai-dimmed,__lp_theme-monokai,__lp-ru_theme-monokai,__lp_theme-quietlight,__lp-ru_theme-quietlight,__lp_theme-red,__lp-ru_theme-red,__lp_theme-seti,__lp-ru_theme-seti,__lp_theme-solarized-dark,__lp-ru_theme-solarized-dark,__lp_theme-solarized-light,__lp-ru_theme-solarized-light,__lp_theme-tomorrow-night-blue,__lp-ru_theme-tomorrow-night-blue,__lp_typescript-basics,__lp-ru_typescript-basics,__lp_typescript-language-features,__lp-ru_typescript-language-features,__lp_vb,__lp-ru_vb,__lp_xml,__lp-ru_xml,__lp_yaml,__lp-ru_yaml</Tags>
+			<Categories>Language Packs</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.73.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="русский" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Microsoft/vscode-loc/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/Microsoft/vscode-loc#readme" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			
+			<Icon>extension/languagepack.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/languagepack.png" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Code.Translation.RU" Path="extension/translations/main.i18n.json" Addressable="true" />
+		</Assets>
+	</PackageManifest>
